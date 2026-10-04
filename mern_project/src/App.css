@@ -193,3 +193,11 @@ body {
     max-width: 420px;
   }
 }
+
+.site-footer {
+  padding: 22px 10%;
+  text-align: center;
+  background: #243b2a;
+  color: white;
+  font-size: 14px;
+}
