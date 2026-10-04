@@ -159,3 +159,37 @@ body {
   color: white;
   cursor: pointer;
 }
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 25px;
+  }
+
+  .nav-links {
+    gap: 12px;
+  }
+
+  .nav-links a {
+    display: none;
+  }
+
+  .hero {
+    padding: 55px 8%;
+    min-height: 430px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .feature-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card {
+    width: 100%;
+    max-width: 420px;
+  }
+}
