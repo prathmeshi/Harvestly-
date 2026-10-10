@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.auth-label {
+  margin: 14px 0 6px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.role-picker {
+  display: flex;
+  gap: 8px;
+}
+
+.role-option {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--cream-border);
+  background: var(--cream);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.role-option.active {
+  background: var(--green-900);
+  color: #fff;
+  border-color: var(--green-900);
+}

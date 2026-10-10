@@ -283,3 +283,32 @@ body {
   color: #2e7d32;
   font-weight: 600;
 }
+
+/* Role picker on the Register page */
+.auth-label {
+  margin: 14px 0 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.role-picker {
+  display: flex;
+  gap: 8px;
+}
+
+.role-option {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  color: #222222;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.role-option.active {
+  background: #2e7d32;
+  color: #ffffff;
+  border-color: #2e7d32;
+}
