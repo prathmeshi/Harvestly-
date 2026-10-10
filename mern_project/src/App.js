@@ -1,60 +1,28 @@
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './components/navbar';
+import Footer from './components/footer';
+import Home from './pages/Home';
+import Marketplace from './pages/Marketplace';
+import Pooling from './pages/Pooling';
+import Login from './pages/Login';
+import Register from './pages/Register';
 
 function App() {
   return (
     <div className="app">
-      <nav className="navbar">
-        <div className="logo">Harvestly</div>
+      <Navbar />
 
-        <div className="nav-links">
-          <a href="/">Home</a>
-          <a href="/">Marketplace</a>
-          <a href="/">Pooling</a>
-          <a href="/">About</a>
-          <button>Login</button>
-        </div>
-      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/marketplace" element={<Marketplace />} />
+        <Route path="/pooling" element={<Pooling />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/about" element={<h2>About Harvestly</h2>} />
+      </Routes>
 
-      <section className="hero">
-        <div className="hero-content">
-          <h1>Connecting Farmers to Better Markets</h1>
-
-          <p>
-            Harvestly helps farmers connect with marketplaces,
-            collaborate through crop pooling, and reach more buyers.
-          </p>
-
-          <div className="hero-buttons">
-            <button className="primary-btn">Explore Marketplace</button>
-            <button className="secondary-btn">Join Harvestly</button>
-          </div>
-        </div>
-      </section>
-
-      <section className="features">
-        <h2>What Harvestly Offers</h2>
-
-        <div className="feature-container">
-          <div className="feature-card">
-            <h3>Marketplace</h3>
-            <p>Connect farmers directly with potential buyers and marketplaces.</p>
-          </div>
-
-          <div className="feature-card">
-            <h3>Crop Pooling</h3>
-            <p>Pool produce with other farmers to meet larger market demands.</p>
-          </div>
-
-          <div className="feature-card">
-            <h3>Better Opportunities</h3>
-            <p>Discover new markets and improve access to buyers.</p>
-          </div>
-        </div>
-      </section>
-
-      <footer className="site-footer">
-        <p>© 2026 Harvestly · Connecting farmers with better markets</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
