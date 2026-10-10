@@ -4,6 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const authRoutes = require('./routes/auth');
+const productRoutes = require('./routes/products');
+app.use('/api/products', productRoutes);
 
 const app = express();
 app.use(cors({ origin: 'http://localhost:3000' }));
