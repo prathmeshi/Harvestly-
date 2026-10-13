@@ -5,6 +5,9 @@ import Buyer from './pages/Buyer';
 import FPO from './pages/FPO';
 import Fertilizers from './pages/Fertilizers';
 import MarketPrices from './pages/MarketPrices';
+import CropGuide from './pages/CropGuide';
+import FertilizerMarketplace from './pages/FertilizerMarketplace';
+import CropAuction from './pages/CropAuction';
 
 function App() {
   const path = window.location.pathname.replace(/\/$/, '') || '/';
@@ -13,7 +16,10 @@ function App() {
     '/buyer': { title: 'Buyer workspace', component: <Buyer /> },
     '/fpo': { title: 'FPO workspace', component: <FPO /> },
     '/fertilizers': { title: 'Fertilizer guide', component: <Fertilizers /> },
+    '/crops': { title: 'Crop guide', component: <CropGuide /> },
     '/market-prices': { title: 'Market prices', component: <MarketPrices /> },
+    '/fertilizer-marketplace': { title: 'Fertilizer seller marketplace', component: <FertilizerMarketplace /> },
+    '/crop-auction': { title: 'Crop pooling & auction', component: <CropAuction /> },
   };
   const current = pages[path];
 
@@ -23,7 +29,7 @@ function App() {
         <a className="brand" href="/" aria-label="Harvestly home">Harvestly<span>.</span></a>
         <nav className="nav-links" aria-label="Main navigation">
           <a href="/">Home</a><a href="/farmer">Farmer</a><a href="/buyer">Buyer</a>
-          <a href="/fpo">FPO</a><a href="/market-prices">Mandi prices</a><a href="/fertilizers">Fertilizers</a>
+          <a href="/fpo">FPO</a><a href="/market-prices">Mandi prices</a><a href="/crops">Crop guide</a><a href="/fertilizers">Fertilizers</a><a href="/fertilizer-marketplace">Sell fertilizer</a><a href="/crop-auction">Crop auction</a>
         </nav>
         <a className="nav-cta" href={current ? path : '/farmer'}>{current ? 'Workspace' : 'Get started'} <span aria-hidden="true">↗</span></a>
       </header>

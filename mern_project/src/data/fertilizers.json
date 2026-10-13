@@ -1,0 +1,56 @@
+[
+  {
+    "id": "urea",
+    "name": "Urea",
+    "grade": "46-0-0",
+    "type": "Nitrogen fertilizer",
+    "icon": "🟦",
+    "note": "Concentrated nitrogen source. Correct timing and placement matter; excessive nitrogen can harm crop performance and the environment.",
+    "package": "Check supplier label and current official guidance."
+  },
+  {
+    "id": "dap",
+    "name": "DAP",
+    "grade": "18-46-0",
+    "type": "Nitrogen and phosphorus",
+    "icon": "🟨",
+    "note": "Common phosphorus-containing fertilizer that also supplies nitrogen. Use according to soil-test results and crop recommendations.",
+    "package": "Check supplier label and current official guidance."
+  },
+  {
+    "id": "mop",
+    "name": "MOP / Potash",
+    "grade": "0-0-60",
+    "type": "Potassium fertilizer",
+    "icon": "🟥",
+    "note": "A common potassium source. Suitability depends on crop needs and soil nutrient status.",
+    "package": "Check supplier label and current official guidance."
+  },
+  {
+    "id": "npk",
+    "name": "NPK complex fertilizer",
+    "grade": "Varies by formulation",
+    "type": "Compound fertilizer",
+    "icon": "🟩",
+    "note": "Provides nitrogen, phosphorus, and potassium in a specified ratio. Compare the grade on the product label before use.",
+    "package": "Check exact formulation on supplier label."
+  },
+  {
+    "id": "compost",
+    "name": "Compost / FYM",
+    "grade": "Organic amendment",
+    "type": "Organic input",
+    "icon": "🌱",
+    "note": "Can add organic matter and contribute nutrients. Nutrient content varies with materials and preparation.",
+    "package": "Use mature, well-prepared material and local recommendations."
+  },
+  {
+    "id": "micronutrients",
+    "name": "Micronutrient mixtures",
+    "grade": "Varies by product",
+    "type": "Micronutrients",
+    "icon": "🧪",
+    "note": "Use only where a deficiency or local recommendation supports use. Products differ in nutrient content and concentration.",
+    "package": "Check exact label; avoid unnecessary application."
+  }
+]

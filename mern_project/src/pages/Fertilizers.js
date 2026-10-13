@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { fertilizerCatalog } from '../data/marketData';
+import fertilizerCatalog from '../data/fertilizers.json';
 
 function Fertilizers() {
   const [query, setQuery] = useState('');
@@ -18,7 +18,7 @@ function Fertilizers() {
       <div className="listing-toolbar"><input aria-label="Search fertilizer catalogue" value={query} onChange={e => setQuery(e.target.value)} placeholder="Search urea, DAP, NPK…" /><div className="filter-chips">{types.map(item => <button key={item} className={type === item ? 'filter-chip active' : 'filter-chip'} onClick={() => setType(item)}>{item}</button>)}</div></div>
       <div className="fertilizer-grid">{filtered.map(item => <article className="fertilizer-card" key={item.id}><div className="fertilizer-icon">{item.icon}</div><span className="data-tag tag-demo">Reference entry</span><h3>{item.name}</h3><strong className="fertilizer-grade">{item.grade}</strong><p className="fertilizer-type">{item.type}</p><p>{item.note}</p><small>Package example: {item.package}</small></article>)}</div>
     </section>
-    <section className="content-section"><div className="content-heading"><div><span className="eyebrow">OFFICIAL DATA SOURCES</span><h2>Check current information</h2><p>Government datasets can cover fertilizer demand, availability, consumption, stock, imports, and subsidy. Coverage and reporting periods vary.</p></div></div><div className="source-links"><a href="https://data.gov.in/keywords/Fertilizer" target="_blank" rel="noreferrer">Explore fertilizer datasets on data.gov.in ↗</a><a href="https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-department-of-fertilizers" target="_blank" rel="noreferrer">Department of Fertilizers ↗</a></div></section>
+    <section className="content-section"><div className="content-heading"><div><span className="eyebrow">OFFICIAL DATA SOURCES</span><h2>Check current information</h2><p>Government datasets can cover fertilizer demand, availability, consumption, stock, imports, and subsidy. Coverage and reporting periods vary.</p></div></div><div className="source-links"><a href="https://data.gov.in/keywords/Fertilizer" target="_blank" rel="noreferrer">Explore fertilizer datasets on data.gov.in ↗</a><a href="https://www.india.gov.in/category/agriculture-rural-environment/subcategory/resources-for-agriculture/details/website-of-department-of-fertilizers" target="_blank" rel="noreferrer">Department of Fertilizers ↗</a><a href="https://soilhealth.dac.gov.in/" target="_blank" rel="noreferrer">Soil Health Card portal ↗</a><a href="https://www.icar.org.in/en/technologies-and-knowledge-resources" target="_blank" rel="noreferrer">ICAR crop and nutrient resources ↗</a></div></section>
   </div>;
 }
 export default Fertilizers;

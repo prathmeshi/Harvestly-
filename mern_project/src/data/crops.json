@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Tomato",
+    "group": "Vegetable",
+    "icon": "🍅",
+    "overview": "A warm-season vegetable. Variety, local climate, drainage, and disease pressure affect the growing plan.",
+    "checklist": [
+      "Use healthy seed or seedlings suited to the local season.",
+      "Prefer well-drained soil and avoid prolonged waterlogging.",
+      "Monitor regularly for pests and diseases; use locally approved integrated pest-management advice."
+    ],
+    "caution": "Fertilizer dose and spray schedules depend on soil tests, variety, crop stage, and local recommendations."
+  },
+  {
+    "name": "Onion",
+    "group": "Vegetable",
+    "icon": "🧅",
+    "overview": "Onion production depends strongly on variety, day length, season, irrigation, and curing conditions.",
+    "checklist": [
+      "Choose a variety recommended for your region and season.",
+      "Maintain suitable moisture while avoiding waterlogging.",
+      "Harvest and cure bulbs according to local extension guidance."
+    ],
+    "caution": "Nutrient timing and irrigation needs vary by season and production system."
+  },
+  {
+    "name": "Potato",
+    "group": "Vegetable",
+    "icon": "🥔",
+    "overview": "Potato performance depends on seed-tuber health, temperature, soil drainage, and disease management.",
+    "checklist": [
+      "Use healthy, certified or otherwise trusted seed tubers.",
+      "Use soil-test information to guide nutrient planning.",
+      "Check local advisories for late blight and other crop-health risks."
+    ],
+    "caution": "Do not use a generic fertilizer or pesticide dose as a substitute for local agronomic advice."
+  },
+  {
+    "name": "Maize",
+    "group": "Cereal",
+    "icon": "🌽",
+    "overview": "Maize recommendations vary by season, hybrid, rainfall, irrigation, and intended use.",
+    "checklist": [
+      "Select a locally recommended hybrid or variety.",
+      "Plan sowing and nutrient application using local crop advisories.",
+      "Monitor moisture and weeds during early growth."
+    ],
+    "caution": "Nutrient rates should be based on the local package of practices and soil-test results."
+  },
+  {
+    "name": "Rice / Paddy",
+    "group": "Cereal",
+    "icon": "🌾",
+    "overview": "Rice practices differ across transplanted, direct-seeded, irrigated, and rainfed systems.",
+    "checklist": [
+      "Use the method and variety recommended for your agro-climatic zone.",
+      "Use local guidance for water management and nutrient timing.",
+      "Check current district advisories for weather-related operations."
+    ],
+    "caution": "Water and fertilizer practices are system-specific; avoid applying one region’s schedule everywhere."
+  },
+  {
+    "name": "Bottle gourd",
+    "group": "Vegetable",
+    "icon": "🥒",
+    "overview": "A warm-season cucurbit whose variety, sowing window, spacing, and nutrient needs vary by region.",
+    "checklist": [
+      "Check the recommended sowing window for your district.",
+      "Provide suitable drainage and support where required.",
+      "Monitor vines, flowers, and fruits for pests and disease symptoms."
+    ],
+    "caution": "Use regional crop recommendations for seed rate, spacing, and nutrient quantities."
+  },
+  {
+    "name": "Chilli",
+    "group": "Vegetable",
+    "icon": "🌶️",
+    "overview": "Chilli growing practices vary with variety, season, local climate, and whether the crop is rainfed or irrigated.",
+    "checklist": [
+      "Select regionally recommended seed or seedlings.",
+      "Maintain drainage and monitor for thrips, mites, and disease symptoms.",
+      "Use integrated pest-management advice from local extension services."
+    ],
+    "caution": "Do not apply pesticide or fertilizer rates without checking local recommendations and product labels."
+  },
+  {
+    "name": "Groundnut",
+    "group": "Oilseed",
+    "icon": "🥜",
+    "overview": "Groundnut is sensitive to soil conditions and moisture around flowering and pod development.",
+    "checklist": [
+      "Choose a variety suited to the local season and soil.",
+      "Use soil testing to guide nutrient planning.",
+      "Monitor crop moisture and locally important pests and diseases."
+    ],
+    "caution": "Nutrient and gypsum recommendations depend on soil type and regional guidance."
+  }
+]

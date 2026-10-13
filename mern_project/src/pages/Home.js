@@ -39,6 +39,8 @@ function Home() {
         <div className="data-tool-grid">
           <a className="data-tool-card" href="/market-prices"><span>📈</span><strong>Mandi price lookup</strong><p>Query daily commodity price records from a configured government open-data API.</p><b>Explore market prices ↗</b></a>
           <a className="data-tool-card" href="/fertilizers"><span>🌱</span><strong>Fertilizer guide</strong><p>Browse common fertilizer types and follow official sources for current policy and stock data.</p><b>Explore fertilizer guide ↗</b></a>
+          <a className="data-tool-card" href="/fertilizer-marketplace"><span>🧪</span><strong>Fertilizer seller marketplace</strong><p>Example seller listings where farmers can browse fertilizer types, package sizes, and demo prices.</p><b>Browse fertilizer sellers ↗</b></a>
+          <a className="data-tool-card" href="/crop-auction"><span>🏆</span><strong>Crop pooling & auction</strong><p>Farmers list crop lots and buyers submit demo bids. The highest bid is shown as the current leader.</p><b>Explore crop auction ↗</b></a>
         </div>
       </section>
 
